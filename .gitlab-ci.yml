@@ -10,15 +10,16 @@ image: redis@sha256:54057dd7e125ca41afe526a877e8bd35ec2cdd33b9217e022ed37bdcf7d0
 #  ANDROID_SDK_TOOLS: "4333796"
 
 variables:
-#   ANDROID_COMPILE_SDK: "25"
-#   ANDROID_BUILD_TOOLS: "25.0.23"
-#   ANDROID_SDK_TOOLS: "25.2.5" # from SDK Manager window (SDK Tool)
-#   ANDROID_EMULATOR_SDK: "24"
-#   ANDROID_EMULATOR_ABI: "armeabi-v7a"
-#   ANDROID_EMULATOR_PLATFORM: "arm"
+  ANDROID_COMPILE_SDK: "25"
+  ANDROID_BUILD_TOOLS: "25.0.23"
+  ANDROID_SDK_TOOLS: "25.2.5" # from SDK Manager window (SDK Tool)
+  ANDROID_EMULATOR_SDK: "24"
+  ANDROID_EMULATOR_ABI: "armeabi-v7a"
+  ANDROID_EMULATOR_PLATFORM: "arm"
 
 
 before_script:
+    - java -version
 #   - apt-get --quiet update --yes
 #   - apt-get --quiet install --yes wget tar unzip lib32stdc++6 lib32z1
 #   - wget --quiet --output-document=android-sdk.zip https://dl.google.com/android/repository/tools_r${ANDROID_SDK_TOOLS}-linux.zip
@@ -33,7 +34,6 @@ before_script:
 #   - set +o pipefail
 #   - yes | android-sdk-linux/tools/bin/sdkmanager --licenses
 #   - set -o pipefail
-    - java -version
 
 stages:
   - build
