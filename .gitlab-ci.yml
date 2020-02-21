@@ -9,6 +9,15 @@ image: openjdk:8-jdk
 #  ANDROID_BUILD_TOOLS: "28.0.2"
 #  ANDROID_SDK_TOOLS: "4333796"
 
+variables:
+  ANDROID_COMPILE_SDK: "25"
+  ANDROID_BUILD_TOOLS: "25.0.23"
+  ANDROID_SDK_TOOLS: "25.2.5" # from SDK Manager window (SDK Tool)
+  ANDROID_EMULATOR_SDK: "24"
+  ANDROID_EMULATOR_ABI: "armeabi-v7a"
+  ANDROID_EMULATOR_PLATFORM: "arm"
+
+
 before_script:
   - apt-get --quiet update --yes
   - apt-get --quiet install --yes wget tar unzip lib32stdc++6 lib32z1
