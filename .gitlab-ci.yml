@@ -3,7 +3,8 @@
 # If you are interested in using Android with FastLane for publishing take a look at the Android-Fastlane template.
 
 # image: openjdk:8-jdk
-image: redis@sha256:54057dd7e125ca41afe526a877e8bd35ec2cdd33b9217e022ed37bdcf7d09673
+# image: redis@sha256:54057dd7e125ca41afe526a877e8bd35ec2cdd33b9217e022ed37bdcf7d09673
+image:mingc/android-build-box:latest
 #variables:
 #  ANDROID_COMPILE_SDK: "28"
 #  ANDROID_BUILD_TOOLS: "28.0.2"
