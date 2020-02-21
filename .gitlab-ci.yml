@@ -33,6 +33,7 @@ before_script:
 #   - set +o pipefail
 #   - yes | android-sdk-linux/tools/bin/sdkmanager --licenses
 #   - set -o pipefail
+    - java -version
 
 stages:
   - build
