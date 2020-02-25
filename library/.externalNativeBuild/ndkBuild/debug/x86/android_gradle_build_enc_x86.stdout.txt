@@ -1,0 +1,28 @@
+[x86] Compile++      : enc <= libenc.cc
+[x86] Compile++      : yuv <= compare.cc
+[x86] Compile++      : yuv <= compare_common.cc
+[x86] Compile++      : yuv <= convert.cc
+[x86] Compile++      : yuv <= convert_argb.cc
+[x86] Compile++      : yuv <= convert_from.cc
+[x86] Compile++      : yuv <= convert_from_argb.cc
+[x86] Compile++      : yuv <= convert_to_argb.cc
+[x86] Compile++      : yuv <= convert_to_i420.cc
+[x86] Compile++      : yuv <= cpu_id.cc
+[x86] Compile++      : yuv <= planar_functions.cc
+[x86] Compile++      : yuv <= rotate.cc
+[x86] Compile++      : yuv <= rotate_any.cc
+[x86] Compile++      : yuv <= rotate_argb.cc
+[x86] Compile++      : yuv <= rotate_common.cc
+[x86] Compile++      : yuv <= row_any.cc
+[x86] Compile++      : yuv <= row_common.cc
+[x86] Compile++      : yuv <= scale.cc
+[x86] Compile++      : yuv <= scale_any.cc
+[x86] Compile++      : yuv <= scale_argb.cc
+[x86] Compile++      : yuv <= scale_common.cc
+[x86] Compile++      : yuv <= video_common.cc
+[x86] Compile++      : yuv <= compare_gcc.cc
+[x86] Compile++      : yuv <= rotate_gcc.cc
+[x86] Compile++      : yuv <= row_gcc.cc
+[x86] Compile++      : yuv <= scale_gcc.cc
+[x86] SharedLibrary  : libyuv.so
+[x86] SharedLibrary  : libenc.so

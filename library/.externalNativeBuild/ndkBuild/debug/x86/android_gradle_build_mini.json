@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "E:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Android.mk",
+    "E:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/github_workspace/yasea/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\github_workspace\\yasea\\library\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "yuv-debug-x86": {
+      "artifactName": "yuv",
+      "buildCommand": "D:\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/github_workspace/yasea/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\github_workspace\\yasea\\library\\build\\intermediates\\ndkBuild\\debug\\lib E:/github_workspace/yasea/library/build/intermediates/ndkBuild/debug/obj/local/x86/libyuv.so",
+      "abi": "x86",
+      "output": "E:\\github_workspace\\yasea\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libyuv.so"
+    },
+    "enc-debug-x86": {
+      "artifactName": "enc",
+      "buildCommand": "D:\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dE:\\github_workspace\\yasea\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dE:/github_workspace/yasea/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\github_workspace\\yasea\\library\\build\\intermediates\\ndkBuild\\debug\\lib E:/github_workspace/yasea/library/build/intermediates/ndkBuild/debug/obj/local/x86/libenc.so",
+      "abi": "x86",
+      "output": "E:\\github_workspace\\yasea\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libenc.so"
+    }
+  }
+}

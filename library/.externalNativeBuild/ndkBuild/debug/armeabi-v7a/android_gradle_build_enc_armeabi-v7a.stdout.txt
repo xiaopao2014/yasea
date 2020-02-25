@@ -1,0 +1,28 @@
+[armeabi-v7a] Compile++ thumb: enc <= libenc.cc
+[armeabi-v7a] Compile++ thumb: yuv <= compare.cc
+[armeabi-v7a] Compile++ thumb: yuv <= compare_common.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert_argb.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert_from.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert_from_argb.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert_to_argb.cc
+[armeabi-v7a] Compile++ thumb: yuv <= convert_to_i420.cc
+[armeabi-v7a] Compile++ thumb: yuv <= cpu_id.cc
+[armeabi-v7a] Compile++ thumb: yuv <= planar_functions.cc
+[armeabi-v7a] Compile++ thumb: yuv <= rotate.cc
+[armeabi-v7a] Compile++ thumb: yuv <= rotate_any.cc
+[armeabi-v7a] Compile++ thumb: yuv <= rotate_argb.cc
+[armeabi-v7a] Compile++ thumb: yuv <= rotate_common.cc
+[armeabi-v7a] Compile++ thumb: yuv <= row_any.cc
+[armeabi-v7a] Compile++ thumb: yuv <= row_common.cc
+[armeabi-v7a] Compile++ thumb: yuv <= scale.cc
+[armeabi-v7a] Compile++ thumb: yuv <= scale_any.cc
+[armeabi-v7a] Compile++ thumb: yuv <= scale_argb.cc
+[armeabi-v7a] Compile++ thumb: yuv <= scale_common.cc
+[armeabi-v7a] Compile++ thumb: yuv <= video_common.cc
+[armeabi-v7a] Compile++ thumb: yuv <= compare_neon.cc
+[armeabi-v7a] Compile++ thumb: yuv <= rotate_neon.cc
+[armeabi-v7a] Compile++ thumb: yuv <= row_neon.cc
+[armeabi-v7a] Compile++ thumb: yuv <= scale_neon.cc
+[armeabi-v7a] SharedLibrary  : libyuv.so
+[armeabi-v7a] SharedLibrary  : libenc.so
